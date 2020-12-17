@@ -1,0 +1,35 @@
+%start S
+
+S[SEM=<Det_Arme(?dd,?na)>] -> D[SEM=?dd] Narme[SEM=?na] 
+
+
+D[SEM=?dd] -> 
+ 
+Det -> 'le' | 'la' | 'Le' | 'La' | 'Les' | 'les' | 'des' | 'une' | 'Une' | 'un' | 'Un' 
+
+N[GND=?np] -> Narme[GND=?np]
+
+
+Ngnd[GND = 'Le'] -> 'revolver'
+Ngnd[GND = 'm'] -> corde
+Ngnd[GND = 'm'] -> revolver
+Ngnd[GND = 'm'] -> revolver
+Ngnd[GND = 'm'] -> revolver
+Ngnd[GND = 'm'] -> revolver
+Ngnd[GND = 'm'] -> revolver
+Ngnd[GND = 'm'] -> revolver
+
+
+
+
+Narme[SEM=<Revolver>] -> 'revolver'
+Narme[SEM=<Corde>] -> 'corde'
+Narme[SEM=<Couteau>] -> 'couteau'
+Narme[SEM=<Marteau>] -> 'marteau'
+Narme[SEM=<Collier>] -> 'collier'
+Narme[SEM=<Tisonnier>] -> 'tisonnier'
+Narme[SEM=<Poignard>] -> 'poignard'
+Narme[SEM=<Chandelier>] -> 'chandelier'
+Narme[SEM=<Matraque>] -> 'matraque'
+Narme[SEM=<Carabine>] -> 'carabine'
+Narme[SEM=<Fusil>] -> 'fusil'

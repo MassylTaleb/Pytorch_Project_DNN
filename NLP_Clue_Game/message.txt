@@ -1,0 +1,171 @@
+[
+  {
+  "crime_hour": 16
+
+  },
+  {
+    "crime_injury": "PlaiePoitrine"
+  },
+  [
+    {
+      "room": "studio",
+      "character": {
+        "name": "olive",
+        "location": "studio",
+        "location_one_hour_after_crime": "cuisine",
+        "isKiller": true
+      },
+      "weapon": {
+        "name": "carabine",
+        "location": "studio",
+        "location_during_crime": "cuisine",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "garage",
+      "character": {
+        "name": "rose",
+        "location": "garage",
+        "location_one_hour_after_crime": "bibliotheque",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "revolver",
+        "location": "garage",
+        "location_during_crime": "garage",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "veranda",
+      "character": {
+        "name": "violet",
+        "location": "veranda",
+        "location_one_hour_after_crime": "bureau",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "matraque",
+        "location": "veranda",
+        "location_during_crime": "hall",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "hall",
+      "character": {
+        "name": "mustard",
+        "location": "hall",
+        "location_one_hour_after_crime": "chambre",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "couteau",
+        "location": "hall",
+        "location_during_crime": "bureau",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "bureau",
+      "character": {
+        "name": "rouge",
+        "location": "bureau",
+        "location_one_hour_after_crime": "garage",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "marteau",
+        "location": "bureau",
+        "location_during_crime": "cave",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "cave",
+      "character": {
+        "name": "peche",
+        "location": "cave",
+        "location_one_hour_after_crime": "cave",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "collier",
+        "location": "cave",
+        "location_during_crime": "bibliotheque",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "bibliotheque",
+      "character": {
+        "name": "gris",
+        "location": "bibliotheque",
+        "location_one_hour_after_crime": "salon",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "corde",
+        "location": "bibliotheque",
+        "location_during_crime": "studio",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "cuisine",
+      "character": {
+        "name": "prunelle",
+        "location": "cuisine",
+        "location_one_hour_after_crime": "hall",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "tisonnier",
+        "location": "cuisine",
+        "location_during_crime": "salon",
+        "is_crime_weapon": true
+      },
+      "is_crime_room": false
+    },
+    {
+      "room": "salon",
+      "character": {
+        "name": "pervenche",
+        "location": "salon",
+        "location_one_hour_after_crime": "veranda",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "poignard",
+        "location": "salon",
+        "location_during_crime": "chambre",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": true
+    },
+    {
+      "room": "chambre",
+      "character": {
+        "name": "blanche",
+        "location": "chambre",
+        "location_one_hour_after_crime": "studio",
+        "isKiller": false
+      },
+      "weapon": {
+        "name": "chandelier",
+        "location": "chambre",
+        "location_during_crime": "veranda",
+        "is_crime_weapon": false
+      },
+      "is_crime_room": false
+    }
+  ]
+]

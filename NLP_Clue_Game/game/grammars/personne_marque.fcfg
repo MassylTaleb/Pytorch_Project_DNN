@@ -1,0 +1,35 @@
+%start S
+
+S[SEM=<Personne_Marque(?vp, ?pp)>] -> VP[SEM=?vp] PP[SEM=?pp]
+
+VP[SEM=?n] -> N[SEM=?n] V Det Nmarque 
+
+N[SEM=?np] -> Nprop[SEM=?np]
+
+V -> 'a'
+Det -> 'des' | 'une' | 'de'
+P -> 'au'
+AD -> 'mort' | 'morte'
+
+Nmarque -> 'marques' | 'marque'
+Ncou -> 'cou'
+
+PP[SEM=?p] -> Det Nmarque[SEM=?p]
+
+Nprop[SEM=<Mustard>] -> 'Mustard'
+Nprop[SEM=<Peacock>] -> 'Peacock'
+Nprop[SEM=<Scarlet>] -> 'Scarlet'
+Nprop[SEM=<Plum>] -> 'Plum'
+Nprop[SEM=<White>] -> 'White'
+Nprop[SEM=<Olive>] -> 'Olive'
+Nprop[SEM=<Rose>] -> 'Rose'
+Nprop[SEM=<Violet>] -> 'Violet'
+Nprop[SEM=<Rouge>] -> 'Rouge'
+Nprop[SEM=<Pêche>] -> 'Pêche'
+Nprop[SEM=<Révérend>] -> 'Révérend'
+
+
+Nmarque[SEM=<Brulure>] -> 'brulure'
+Nmarque[SEM=<Fracture>] -> 'fracture'
+Nmarque[SEM=<Coupure>] -> 'coupure' | 'coupures'
+Nmarque[SEM=<Trou>] -> 'trou'

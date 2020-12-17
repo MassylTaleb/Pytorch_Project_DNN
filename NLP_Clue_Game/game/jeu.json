@@ -1,0 +1,8 @@
+{
+        "map":["studio", "garage","véranda","hall","bureau",
+                "cave","bibliothèque", "cuisine","salon", "chambre"],
+        "personnes":["Mustard", "Peacock", "Scarlet", "Plum", "White", 
+                        "Olive","Rose", "Violet", "Rouge", "Pêche", "Révérend"],
+        "armes":["Poignard", "Revolver", "Chandelier","Corde","Matraque","Collier",
+                        "Carabine", "Couteau", "Tisionner", "Marteau"]
+}

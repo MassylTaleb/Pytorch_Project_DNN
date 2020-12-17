@@ -1,0 +1,43 @@
+{
+    "studio": {
+        "personne": ["Olive est dans le studio"],
+        "arme": ["La carabine est dans le studio"]
+    },
+    "garage": {
+        "personne": ["Rose est dans le garage"],
+        "arme": ["Le revolver est dans le garage"]
+    },
+    "véranda": {
+        "personne": ["Mustard est dans la véranda"],
+        "arme": ["La corde est dans la véranda"]
+    },
+    "hall": {
+        "personne": ["White est dans le hall"],
+        "arme": ["Le couteau est dans le hall"]
+    },
+    "bureau": {
+        "personne": ["Rouge est dans le bureau"],
+        "arme": ["Le marteau est dans le bureau"]
+    },
+    "cave": {
+        "personne": ["Pêche est dans la cave"],
+        "arme": ["Le collier est dans la cave"]
+    },
+    "bibliothèque": {
+        "personne": [["Scarlet est dans la bibliothèque"],
+                    ["Violet est dans la bibliothèque"]],
+        "arme": ["La matraque est dans la bibliothèque"]
+    },
+    "cuisine": {
+        "personne": ["Peacock est dans la cuisine"],
+        "arme": ["Le tisonnier est dans la cuisine"]
+    },
+    "salon": {
+        "personne": ["Révérend est dans le salon"],
+        "arme": ["Le poignard est dans le salon"]
+    },
+    "chambre": {
+        "personne": ["Plum est dans la chambre"],
+        "arme": ["Le chandelier est dans la chambre"]
+    }
+}

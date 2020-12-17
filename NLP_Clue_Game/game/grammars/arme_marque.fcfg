@@ -1,0 +1,33 @@
+%start S
+
+S[SEM=<Arme_Marque(?vp, ?pp)>] -> VP[SEM = ?vp] PP[SEM = ?pp]
+
+VP[SEM=?n] -> Det Narme[SEM=?n] V
+V -> 'cause' | 'fait'
+
+PP[SEM=?p] -> Det Nmarque[SEM=?p]
+Det -> 'le' | 'la' | 'Le' | 'La' | 'Les' | 'les' | 'des' | 'une' | 'Une' | 'un' | 'Un' 
+
+
+Narme[SEM=<Revolver>] -> 'revolver'
+Narme[SEM=<Corde>] -> 'corde'
+Narme[SEM=<Couteau>] -> 'couteau'
+Narme[SEM=<Marteau>] -> 'marteau'
+Narme[SEM=<Collier>] -> 'collier'
+Narme[SEM=<Tisonnier>] -> 'tisonnier'
+Narme[SEM=<Poignard>] -> 'poignard'
+Narme[SEM=<Chandelier>] -> 'chandelier'
+Narme[SEM=<Matraque>] -> 'matraque'
+Narme[SEM=<Carabine>] -> 'carabine'
+Narme[SEM=<Fusil>] -> 'fusil'
+
+Nmarque[SEM=<Brulure>] -> 'brulure'
+Nmarque[SEM=<Fracture>] -> 'fracture'
+Nmarque[SEM=<Coupure>] -> 'coupure'
+Nmarque[SEM=<Étranglement>] -> 'étranglement'
+Nmarque[SEM=<Déchirure>] -> 'déchirure'
+Nmarque[SEM=<Trou>] -> 'trou'
+
+Nmarque[SEM=<Plaie>] -> 'plaie'
+
+

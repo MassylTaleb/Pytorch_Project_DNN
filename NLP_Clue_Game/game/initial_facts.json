@@ -1,0 +1,30 @@
+{
+    "personne_vivantes":[
+        ["Scarlet est morte"],
+        ["Peacock est vivant"],
+        ["Mustard est vivant"],
+        ["Plum est vivant"],
+        ["White est vivant"],
+        ["Olive est vivant"],
+        ["Rose est vivante"],
+        ["Violet est vivante"],
+        ["Pêche est vivant"],
+        ["Rouge est vivant"],
+        ["Révérend est vivant"]
+    ],
+    "personne_marque":["Scarlet a une marque de trou"],
+    "arme_marque":[
+        ["Un revolver cause un trou"],
+        ["Une corde cause un étranglement"],
+        ["Un couteau cause une coupure"],
+        ["Un marteau cause une fracture"],
+        ["Une collier cause un étranglement"],
+        ["Une tisonnier cause une déchirure"],
+        ["Une poignard cause une coupure"],
+        ["Un chandelier cause une brulure"],
+        ["Une matraque cause une fracture"],
+        ["Une carabine cause un trou"],
+        ["Une fusil cause un trou"]
+    ]
+
+}

@@ -1,0 +1,77 @@
+%start S
+
+S[SEM=<HeureCrime(?h)>] -> N[SEM=?n] V AD P Nh[SEM=?h] | N[SEM=?n] V AD P Nhe[SEM=?h]
+
+
+N[SEM=?np] -> Nprop[SEM=?np]
+Nhe[SEM=?h] -> Nhe[SEM=?h] N
+
+
+V -> 'est'
+AD -> 'mort' | 'morte'
+P -> 'à'
+N -> 'h' | 'heure'
+
+
+Nprop[SEM=<Mustard>] -> 'Mustard'
+Nprop[SEM=<Peacock>] -> 'Peacock'
+Nprop[SEM=<Scarlet>] -> 'Scarlet' | 'Scarlett'
+Nprop[SEM=<Plum>] -> 'Plum'
+Nprop[SEM=<White>] -> 'White'
+Nprop[SEM=<Olive>] -> 'Olive'
+Nprop[SEM=<Rose>] -> 'Rose'
+Nprop[SEM=<Violet>] -> 'Violet'
+Nprop[SEM=<Rouge>] -> 'Rouge'
+Nprop[SEM=<Pêche>] -> 'Pêche'
+Nprop[SEM=<Révérend>] -> 'Révérend'
+
+Nh[SEM=<1>] -> '1h' | '1h00'
+Nh[SEM=<2>] -> '2h' | '2h00'
+Nh[SEM=<3>] -> '3h' | '3h00'
+Nh[SEM=<4>] -> '4h' | '4h00'
+Nh[SEM=<5>] -> '5h' | '5h00'
+Nh[SEM=<6>] -> '6h' | '6h00'
+Nh[SEM=<7>] -> '7h' | '7h00'
+Nh[SEM=<8>] -> '8h' | '8h00'
+Nh[SEM=<9>] -> '9h' | '9h00'
+Nh[SEM=<10>] -> '10h' | '10h00'
+Nh[SEM=<11>] -> '11h' | '11h00'
+Nh[SEM=<12>] -> '12h' | '12h00'
+Nh[SEM=<13>] -> '13h' | '13h00'
+Nh[SEM=<14>] -> '14h' | '14h00'
+Nh[SEM=<15>] -> '15h' | '15h00'
+Nh[SEM=<16>] -> '16h' | '16h00'
+Nh[SEM=<17>] -> '17h' | '17h00'
+Nh[SEM=<18>] -> '18h' | '18h00'
+Nh[SEM=<19>] -> '19h' | '19h00'
+Nh[SEM=<20>] -> '20h' | '20h00'
+Nh[SEM=<21>] -> '21h' | '21h00'
+Nh[SEM=<22>] -> '22h' | '22h00'
+Nh[SEM=<23>] -> '23h' | '23h00'
+Nh[SEM=<24>] -> '24h' | '24h00'
+
+
+Nhe[SEM=<1>] -> '1'
+Nhe[SEM=<2>] -> '2'
+Nhe[SEM=<3>] -> '3'
+Nhe[SEM=<4>] -> '4'
+Nhe[SEM=<5>] -> '5'
+Nhe[SEM=<6>] -> '6'
+Nhe[SEM=<7>] -> '7'
+Nhe[SEM=<8>] -> '8'
+Nhe[SEM=<9>] -> '9'
+Nhe[SEM=<10>] -> '10'
+Nhe[SEM=<11>] -> '11'
+Nhe[SEM=<12>] -> '12'
+Nhe[SEM=<13>] -> '13'
+Nhe[SEM=<14>] -> '14'
+Nhe[SEM=<15>] -> '15'
+Nhe[SEM=<16>] -> '16'
+Nhe[SEM=<17>] -> '17'
+Nhe[SEM=<18>] -> '18'
+Nhe[SEM=<19>] -> '19'
+Nhe[SEM=<20>] -> '20'
+Nhe[SEM=<21>] -> '21'
+Nhe[SEM=<22>] -> '22'
+Nhe[SEM=<23>] -> '23'
+Nhe[SEM=<24>] -> '24'

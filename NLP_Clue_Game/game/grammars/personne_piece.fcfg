@@ -1,0 +1,43 @@
+%start S
+
+S[SEM=<Personne_Piece(?vp,?pp)>] -> VP[SEM=?vp] PP[SEM = ?pp]
+
+
+VP[SEM=?n] -> N[SEM=?n] Pron Vt | N[SEM=?n] V
+N[SEM=?np] -> Nprop[SEM=?np]
+Pron -> 'se'
+Vt -> 'trouve'
+V -> 'est'
+
+
+PP[SEM=?vp] -> Prep Det N[SEM = ?vp]
+Prep -> 'dans'
+Det -> 'le' | 'la'
+
+
+
+N[SEM=<Cuisine>] -> 'cuisine'
+N[SEM=<Salon>] -> 'salon'
+N[SEM=<Bureau>] -> 'bureau'
+N[SEM=<Garage>] -> 'garage'
+N[SEM=<Studio>] -> 'studio'
+N[SEM=<Véranda>] -> 'véranda'
+N[SEM=<Hall>] -> 'hall'
+N[SEM=<Cave>] -> 'cave'
+N[SEM=<Bibliothèque>] -> 'bibliothèque'
+N[SEM=<Chambre>] -> 'chambre'
+
+Nprop[SEM=<Mustard>] -> 'Mustard'
+Nprop[SEM=<Peacock>] -> 'Peacock'
+Nprop[SEM=<Scarlet>] -> 'Scarlet'
+Nprop[SEM=<Plum>] -> 'Plum'
+Nprop[SEM=<White>] -> 'White'
+Nprop[SEM=<Olive>] -> 'Olive'
+Nprop[SEM=<Rose>] -> 'Rose'
+Nprop[SEM=<Violet>] -> 'Violet'
+Nprop[SEM=<Rouge>] -> 'Rouge'
+Nprop[SEM=<Pêche>] -> 'Pêche'
+Nprop[SEM=<Révérend>] -> 'Révérend'
+
+
+
